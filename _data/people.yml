@@ -78,8 +78,18 @@
 # ------------------------------------------------------------------
 # Master Students
 # ------------------------------------------------------------------
-# (add entries as needed)
-
+- name: Bianka Babulíková
+  title:
+  role: Graduate Student
+  image: placeholder.jpg
+  expertise:
+  email:
+  orcid:
+  scholar:
+  website:
+  content:
+  group: master_students
+  active: true
 # ------------------------------------------------------------------
 # Alumni
 # ------------------------------------------------------------------
