@@ -1,0 +1,87 @@
+# CoVLab People Data
+# ===================
+# Each entry here corresponds to a lab member displayed on the /people/ page.
+#
+# Fields:
+#   name        : Full name with diacritics (e.g., Jana Nováková)
+#   title       : Academic title or role (e.g., Prof., Dr., MSc., PhD student)
+#   role        : Position label shown below the name (e.g., Principal Investigator, Postdoctoral Researcher)
+#   image       : Filename relative to assets/img/people/ (e.g., jana_novakova.jpg)
+#                 Use placeholder.jpg until a real photo is available.
+#   expertise   : Short list of research interests (Markdown supported)
+#   email       : Contact email (optional)
+#   orcid       : ORCID iD without the URL prefix (optional, e.g., 0000-0000-0000-0000)
+#   scholar     : Google Scholar profile URL (optional)
+#   website     : Personal or institutional website URL (optional)
+#   content     : Filename of the per-person _pages/ content file for extended bio (optional)
+#                 If omitted, only the card fields above are shown.
+#   group       : Organisational group for sectioned display.
+#                 Use one of: principal_investigators, researchers, phd_students, master_students, alumni
+#   active      : Set to false to move a member to the Alumni section without deleting the entry.
+
+# ------------------------------------------------------------------
+# Principal Investigators
+# ------------------------------------------------------------------
+- name: Meno Priezvisko
+  title: Prof.
+  role: Principal Investigator
+  image: placeholder.jpg
+  expertise:
+    - Computational virology
+    - Viral genome evolution
+    - Phylodynamics
+  email: priezvisko@uniba.sk
+  orcid: 0000-0000-0000-0000
+  scholar:
+  website:
+  content: people_pi_placeholder.md
+  group: principal_investigators
+  active: true
+
+# ------------------------------------------------------------------
+# Researchers / Postdocs
+# ------------------------------------------------------------------
+- name: Jana Nováková
+  title: Dr.
+  role: Postdoctoral Researcher
+  image: placeholder.jpg
+  expertise:
+    - Structural bioinformatics
+    - RNA virus replication
+    - Protein–RNA interactions
+  email: novakova@uniba.sk
+  orcid:
+  scholar:
+  website:
+  content:
+  group: researchers
+  active: true
+
+# ------------------------------------------------------------------
+# PhD Students
+# ------------------------------------------------------------------
+- name: Matej Kubičina
+  title: MSc.
+  role: PhD Student
+  image: placeholder.jpg
+  expertise:
+    - Virus–host interaction networks
+    - Machine learning in virology
+    - SARS-CoV-2 genomics
+  email: kubicina@uniba.sk
+  orcid:
+  scholar:
+  website:
+  content:
+  group: phd_students
+  active: true
+
+# ------------------------------------------------------------------
+# Master Students
+# ------------------------------------------------------------------
+# (add entries as needed)
+
+# ------------------------------------------------------------------
+# Alumni
+# ------------------------------------------------------------------
+# (set active: false on a member entry to move them here automatically)
