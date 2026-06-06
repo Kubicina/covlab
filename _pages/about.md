@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Vitajte na stránke **CoVLab** — Výpočtového a virologického laboratória Prírodovedeckej fakulty Univerzity Komenského v Bratislave.
+Vitajte na stránke **CoVLab**, laboratória Prírodovedeckej fakulty Univerzity Komenského v Bratislave.
 
 Náš výskum sa zameriava na porozumenie vírusov pomocou nástrojov výpočtovej biológie, bioinformatiky a molekulárnej evolúcie. Skúmame, ako vírusy interagujú so svojimi hostiteľmi, ako sa vyvíjajú ich genómy a ako tieto poznatky môžeme využiť pri vývoji nových diagnostických a terapeutických prístupov.
 

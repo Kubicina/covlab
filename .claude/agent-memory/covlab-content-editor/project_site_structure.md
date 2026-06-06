@@ -29,3 +29,5 @@ Data files in \_data/:
 - cv.yml — CV data
 - featured_plugins.yml — plugin feature flags (starter wiring, do not repurpose)
 - repositories.yml, socials.yml, citations.yml, venues.yml — other starter data
+
+Language: Site is in Slovak (lang: sk set in \_config.yml as of 2026-06-06). Page titles, nav labels, descriptions, role values in people.yml, and all user-visible body text are in Slovak. YAML keys remain in English. Nav labels translated: publications→publikácie, projects→projekty, people→ľudia, news→aktuality, submenus→ďalšie. Group labels in profiles.md: Vedúci laboratória, Výskumníci a postdoktorandi, Doktorandi, Magisterské štúdium, Absolventi.
