@@ -39,14 +39,12 @@
 # ------------------------------------------------------------------
 # Researchers / Postdocs
 # ------------------------------------------------------------------
-- name: Jana Nováková
+- name: Filip Červeňák
   title: Dr.
   role: Postdoktorand
-  image: placeholder.jpg
+  image: Cervenak.jpg
   expertise:
     - Structural bioinformatics
-    - RNA virus replication
-    - Protein–RNA interactions
   email: novakova@uniba.sk
   orcid:
   scholar:
