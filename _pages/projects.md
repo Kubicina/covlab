@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projekty
+title: výskum
 permalink: /projects/
 description: Prehľad výskumných projektov laboratória CoVLab.
 nav: true
