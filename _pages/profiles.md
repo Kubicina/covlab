@@ -31,7 +31,7 @@ profiles:
 {% assign groups = "principal_investigators,researchers,phd_students,master_students" | split: "," %}
 {% assign group_labels = "Principal Investigators,Researchers & Postdocs,PhD Students,Master Students" | split: "," %}
 
-{% assign active_members = site.data.people | where: "active", true %}
+{% assign active_members = site.data.people | where_exp: "person", "person.active" %}
 
 {% for i in (0..3) %}
 {% assign group_key = groups[i] %}
@@ -86,7 +86,7 @@ profiles:
 {% endif %}
 {% endfor %}
 
-{% assign alumni = site.data.people | where: "active", false %}
+{% assign alumni = site.data.people | where_exp: "person", "person.active == false" %}
 {% if alumni.size > 0 %}
 
 ## Alumni
