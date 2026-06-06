@@ -1,32 +1,12 @@
 ---
-layout: profiles
+layout: page
 permalink: /people/
 title: people
 description: >
   Members of the CoVLab — Computational and Virology Laboratory at Comenius University in Bratislava.
 nav: true
 nav_order: 4
-
-# The `profiles` layout renders one featured card per entry below.
-# Each card pulls a photo from assets/img/ and renders the referenced content file as the bio text.
-# For the full roster (all groups), see the Liquid section in the page body below.
-profiles:
-  - align: left
-    image: people/placeholder.jpg
-    content: people_pi_placeholder.md
-    image_circular: false
-    more_info: >
-      <p>Department of Molecular Biology</p>
-      <p>Faculty of Natural Sciences</p>
-      <p>Comenius University, Bratislava</p>
 ---
-
-<!-- _pages/profiles.md -->
-<!--
-  The featured profile card above is rendered by the `profiles` layout (al_folio_core gem).
-  The sections below iterate over _data/people.yml to list all lab members by group.
-  To add or update a person, edit _data/people.yml — no changes to this file are needed.
--->
 
 {% assign groups = "principal_investigators,researchers,phd_students,master_students" | split: "," %}
 {% assign group_labels = "Principal Investigators,Researchers & Postdocs,PhD Students,Master Students" | split: "," %}
