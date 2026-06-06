@@ -22,14 +22,12 @@
 # ------------------------------------------------------------------
 # Principal Investigators
 # ------------------------------------------------------------------
-- name: Meno Priezvisko
+- name: Lubomir Tomaska
   title: Prof.
   role: Vedúci laboratória
-  image: placeholder.jpg
+  image: Tomaska.jpg
   expertise:
-    - Computational virology
-    - Viral genome evolution
-    - Phylodynamics
+    - Genomika
   email: priezvisko@uniba.sk
   orcid: 0000-0000-0000-0000
   scholar:
