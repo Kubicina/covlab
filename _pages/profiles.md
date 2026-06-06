@@ -34,10 +34,10 @@ profiles:
 {% assign active_members = site.data.people | where: "active", true %}
 
 {% for i in (0..3) %}
-  {% assign group_key = groups[i] %}
-  {% assign group_label = group_labels[i] %}
-  {% assign group_members = active_members | where: "group", group_key %}
-  {% if group_members.size > 0 %}
+{% assign group_key = groups[i] %}
+{% assign group_label = group_labels[i] %}
+{% assign group_members = active_members | where: "group", group_key %}
+{% if group_members.size > 0 %}
 
 ## {{ group_label }}
 
@@ -83,7 +83,7 @@ profiles:
   {% endfor %}
 </div>
 
-  {% endif %}
+{% endif %}
 {% endfor %}
 
 {% assign alumni = site.data.people | where: "active", false %}
