@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: projekty
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Prehľad výskumných projektov laboratória CoVLab.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

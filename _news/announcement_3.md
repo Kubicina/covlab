@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Naša webstránka je online — sledujte aktuality a novinky z výskumu! :sparkles: :smile:

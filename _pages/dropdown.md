@@ -1,11 +1,11 @@
 ---
 layout: page
-title: submenus
+title: ďalšie
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
+  - title: knižnica
     permalink: /books/
   - title: divider
   - title: blog

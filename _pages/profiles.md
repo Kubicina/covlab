@@ -1,15 +1,15 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: ľudia
 description: >
-  Members of the CoVLab — Computational and Virology Laboratory at Comenius University in Bratislava.
+  Členovia CoVLab — Výpočtového a virologického laboratória na Univerzite Komenského v Bratislave.
 nav: true
 nav_order: 4
 ---
 
 {% assign groups = "principal_investigators,researchers,phd_students,master_students" | split: "," %}
-{% assign group_labels = "Principal Investigators,Researchers & Postdocs,PhD Students,Master Students" | split: "," %}
+{% assign group_labels = "Vedúci laboratória,Výskumníci a postdoktorandi,Doktorandi,Magisterské štúdium" | split: "," %}
 
 {% assign active_members = site.data.people | where_exp: "person", "person.active" %}
 
@@ -28,7 +28,7 @@ nav_order: 4
       <img
         src="{{ '/assets/img/people/' | append: person.image | relative_url }}"
         class="card-img-top"
-        alt="Photo of {{ person.name }}"
+        alt="Fotografia: {{ person.name }}"
         style="object-fit: cover; height: 220px;"
       />
       <div class="card-body">
@@ -69,7 +69,7 @@ nav_order: 4
 {% assign alumni = site.data.people | where_exp: "person", "person.active == false" %}
 {% if alumni.size > 0 %}
 
-## Alumni
+## Absolventi
 
 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3 mb-5">
   {% for person in alumni %}

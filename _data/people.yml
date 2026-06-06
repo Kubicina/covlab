@@ -24,7 +24,7 @@
 # ------------------------------------------------------------------
 - name: Meno Priezvisko
   title: Prof.
-  role: Principal Investigator
+  role: Vedúci laboratória
   image: placeholder.jpg
   expertise:
     - Computational virology
@@ -43,7 +43,7 @@
 # ------------------------------------------------------------------
 - name: Jana Nováková
   title: Dr.
-  role: Postdoctoral Researcher
+  role: Postdoktorand
   image: placeholder.jpg
   expertise:
     - Structural bioinformatics
@@ -62,7 +62,7 @@
 # ------------------------------------------------------------------
 - name: Matej Kubičina
   title: MSc.
-  role: PhD Student
+  role: Doktorand
   image: placeholder.jpg
   expertise:
     - Virus–host interaction networks
@@ -80,7 +80,7 @@
 # ------------------------------------------------------------------
 - name: Bianka Babulíková
   title:
-  role: Graduate Student
+  role: Magisterský študent
   image: placeholder.jpg
   expertise:
   email:

@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: My website # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: CoVLab # the website title (if blank, full name will be used instead)
+first_name:
+middle_name:
+last_name:
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Kontaktujte nás prostredníctvom e-mailu alebo navštívte nás osobne na adrese laboratória.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  CoVLab — Výpočtové a virologické laboratórium na Univerzite Komenského v Bratislave.
+  Venujeme sa výskumu vírusov, bioinformatike a evolučnej virológii.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+  Poháňané pomocou <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> s témou <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Hostované na <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: virológia, bioinformatika, Univerzita Komenského, Bratislava, výpočtová biológia, CoVLab # add your own keywords or leave empty
+lang: sk # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kubicina.github.io # the base hostname & protocol for your site
@@ -122,8 +122,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: CoVLab Aktuality # blog_name will be displayed in your blog page
+blog_description: Novinky a oznámenia z Výpočtového a virologického laboratória
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -149,7 +149,7 @@ giscus:
   dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
   light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
   emit_metadata: 0
-  lang: en
+  lang: sk
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
@@ -336,7 +336,7 @@ scholar:
   first_name: [Albert, A.]
 
   style: apa
-  locale: en
+  locale: sk
 
   source: /_bibliography/
   bibliography: papers.bib
@@ -350,7 +350,7 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
-  details_link: Details
+  details_link: Podrobnosti
 
   query: "@*"
   group_by: year

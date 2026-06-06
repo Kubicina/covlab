@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Vitajte na novej webstránke laboratória CoVLab.
