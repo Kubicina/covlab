@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://covlab.github.io/al-folio/sitemap.xml
+Sitemap: https://kubicina.github.io/covlab//sitemap.xml
